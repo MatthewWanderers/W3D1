@@ -138,7 +138,7 @@ def teachers_and_divisions_two
       CASE WHEN
         dept_id BETWEEN 1 AND 2 THEN 'Sci'
       WHEN
-        dept_id = 3 THEN'Art'
+        dept_id = 3 THEN 'Art'
       ELSE
         'None'
       END
